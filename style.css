@@ -1,8 +1,7 @@
-/* Base styles for the body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Light gray background */
-    color: #333; /* Dark gray text */
+    background-color: #f5f5f5;
+    color: #333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,14 +9,12 @@ body {
     align-items: center;
 }
 
-/* Header styling */
 h1 {
-    color: #e74c3c; /* Red color */
+    color: #e74c3c;
     font-size: 36px;
     margin-top: 30px;
 }
 
-/* Ramen Menu styling */
 #ramen-menu {
     display: flex;
     flex-wrap: wrap;
@@ -25,9 +22,8 @@ h1 {
     margin-top: 20px;
 }
 
-/* Ramen image styling */
 #ramen-menu img {
-    width: 150px; /* Smaller image size */
+    width: 150px;
     height: 150px;
     margin: 10px;
     border-radius: 10px;
@@ -35,14 +31,12 @@ h1 {
     cursor: pointer;
 }
 
-/* Hover effect on ramen images */
 #ramen-menu img:hover {
-    transform: scale(1.1); /* Enlarge image on hover */
+    transform: scale(1.1);
 }
 
-/* Ramen details section styling */
 #ramen-detail {
-    background-color: #fff; /* White background for details */
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
@@ -52,16 +46,14 @@ h1 {
     color: #333;
 }
 
-/* Title and restaurant details */
 #ramen-detail h2 {
-    color: #e74c3c; /* Red color for ramen name */
+    color: #e74c3c;
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-/* Button styling */
 button {
-    background-color: #e74c3c; /* Red background for buttons */
+    background-color: #e74c3c;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -71,12 +63,10 @@ button {
     margin-top: 15px;
 }
 
-/* Button hover effect */
 button:hover {
-    background-color: #c0392b; /* Darker red on hover */
+    background-color: #c0392b;
 }
 
-/* Form styling */
 #ramen-form {
     display: flex;
     flex-direction: column;
@@ -100,25 +90,18 @@ button:hover {
 
 #ramen-form input:focus,
 #ramen-form textarea:focus {
-    border-color: #e74c3c; /* Red border on focus */
+    border-color: #e74c3c;
 }
 
-/* Styling for form buttons */
 #ramen-form button {
-    background-color: #27ae60; /* Green background for submit button */
+    background-color: #27ae60;
     margin-top: 20px;
 }
 
 #ramen-form button:hover {
-    background-color: #2ecc71; /* Lighter green on hover */
+    background-color: #2ecc71;
 }
 
-/* Style for the form and detail sections */
-#ramen-detail, #ramen-form {
-    max-width: 600px;
-}
-
-/* Responsiveness for smaller screens */
 @media (max-width: 600px) {
     #ramen-menu {
         flex-direction: column;
